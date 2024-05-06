@@ -8,10 +8,12 @@
     - Acima de 40, obesidade grave.
     
 */
+// função para o calculo do imc 
 function CalcularImc (peso, altura) {
     return peso / Math.pow(altura, 2);
 }
 
+// Função para classificar os pesos
 function ClassificarImc (imc) {
     if (imc < 18.5) {
         return('Abaixo do peso');
@@ -27,6 +29,7 @@ function ClassificarImc (imc) {
 
 }
 
+// função main
 function main (main){
     
     const peso = 75
