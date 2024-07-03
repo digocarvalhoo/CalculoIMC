@@ -34,6 +34,7 @@ class Pessoa {
         }
     }
 }
+
 // Instanciação de Objetos e Utilização dos Métodos;
 const Rodrigo = new Pessoa('Rodrigo', 102, 1.77);
 const Diogo = new Pessoa('Diogo', 65, 1.79);
