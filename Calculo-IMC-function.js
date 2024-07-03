@@ -1,4 +1,5 @@
 
+
 // função para o calculo do imc 
 function CalcularImc(peso, altura) {
     return peso / Math.pow(altura, 2);
